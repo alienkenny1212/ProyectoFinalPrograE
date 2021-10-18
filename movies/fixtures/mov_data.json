@@ -1,0 +1,21 @@
+[
+    {"model": "movies.category", "pk": 1, "fields": {"name": "Terror"}},
+    {"model": "movies.category", "pk": 2, "fields": {"name": "Comedia"}},
+    {"model": "movies.category", "pk": 3, "fields": {"name": "Acción"}},
+    {"model": "movies.category", "pk": 4, "fields": {"name": "Ciencia Ficción"}},
+
+    {"model": "movies.pelicula", "pk": 1, "fields": {"name": "Avengers", "poster": "Imagen1.jpg",  "category": 3}},
+    {"model": "movies.pelicula", "pk": 2, "fields": {"name": "El camino", "poster": "Imagen2.jpg", "category": 3}},
+    {"model": "movies.pelicula", "pk": 3, "fields": {"name": "Titanic", "poster": "Imagen3.jpg","category": 2}},
+    {"model": "movies.pelicula", "pk": 4, "fields": {"name": "Rocky 75","poster": "Imagen4.jpg",  "category": 2}},
+    {"model": "movies.pelicula", "pk": 5, "fields": {"name": "Aquí me quedo", "poster": "Imagen5.jpg", "category": 1}},
+
+    {"model": "movies.cine", "pk": 1, "fields": {"name": "Cinepolis Utz Ullew"}},
+    {"model": "movies.cine", "pk": 2, "fields": {"name": "Circuito alba"}},
+    {"model": "movies.cine", "pk": 3, "fields": {"name": "Cinepolis interplaza"}},
+
+    {"model": "movies.sala", "pk": 1, "fields": {"name": "Sala Imax", "asientos":100, "cine": 1, "pelicula": 1}}, 
+    {"model": "movies.sala", "pk": 2, "fields": {"name": "Sala 1", "asientos":100, "cine": 2, "pelicula": 2}}, 
+    {"model": "movies.sala", "pk": 3, "fields": {"name": "Sala 13", "asientos":100, "cine": 3, "pelicula": 3}}, 
+    {"model": "movies.sala", "pk": 4, "fields": {"name": "Sala 15", "asientos":100, "cine": 1, "pelicula": 4}}
+]
